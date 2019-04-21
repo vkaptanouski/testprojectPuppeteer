@@ -30,7 +30,7 @@ describe('Getting Started', () => {
 	beforeAll(async () => {
     browser = await puppeteer.launch({
       headless: false,
-      // slowMo: 20, // Don't forget remove it in production
+      // slowMo: 20, // slow down by 20ms
     });
     page = await browser.newPage();
 		await page.goto(pageURL);
