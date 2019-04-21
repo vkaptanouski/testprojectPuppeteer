@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 To run tests in headless mode set in index.test.js:
 
 ```
-headless: true (if false - tests will be executed in browse window)
+headless: true (if false - tests will be executed in browser's window)
 ```
 To manage speed of the tests execution uncomment and change the paraneter in index.test.js:
 
