@@ -23,7 +23,7 @@ let browser;
 const expectedReusingJSCodeCheckboxLabel = 'Re-using existing JavaScript code for testing';
 const expectedContIntgCheckboxLabel = 'Easy embedding into a Continuous integration system';
 const expectedinterfaceDropdownValue = 'JavaScript API';
-const expectedTextAreaComments = 'TestCafe is amazing framework!';
+const expectedTextAreaComments = 'Puppeteer is amazing framework!';
 const expectedDeveloperName = 'Developer';
 
 describe('Getting Started', () => {
